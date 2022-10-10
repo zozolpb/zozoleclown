@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baptiste</title>
+
+    <style>
+
+       @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+        body{
+            text-align: center;
+            color: pink;
+            background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+            font-family: 'Courier New', Courier, monospace;
+            margin: auto;
+        }
+
+        h1{
+            font-family:'Silkscreen', cursive;  
+            color:  pink;
+            font-size: 100px;
+                          }
+
+            button{
+                border-radius: 100px;
+                color: rgb(221, 112, 112);
+                background-color: pink;
+                border-color: pink;
+                font-size: 24px;
+                padding: 10px 5px;
+                width: 200px;
+                font-family:'Silkscreen', cursive;  
+                
+            }
+
+            .formulaire.p{
+                display: flex;
+                flex-direction: column;
+                 align-items: center; 
+                                
+                }
+
+                p{
+                    font-size: 25px;
+                    font-weight: bold;
+                }
+
+
+    </style>
+</head>
+<body>
+    <H1>Salut Baptiste </H1>
+    <div class="formulaire ">
+
+    <form action="#" method="post"></form>
+            <p> Veux-tu sortir avec moi ?</p> 
+            <button (type="button" ,="" onclick="window.open('https://img1.bonnesimages.com/bi/re/bisous/bisous_001.webp', '_blank');" )="">Oui!!</button>
+            <button (type="button" ,="" onclick="window.open('https://i.pinimg.com/originals/52/89/43/528943c3a9b4e9cbefa5db152d802d7a.jpg', '_blank');" )="">Non :(</button>
+    </div>
+
+</body>
+</html>
