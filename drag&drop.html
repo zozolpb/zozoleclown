@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extensions JQUERY</title>
+    
+    <style>
+        #draggable{
+            width: 200px;
+            display: flex;
+        }
+
+        body{
+            background-image:url(https://picfiles.alphacoders.com/997/9976.jpg);
+        }
+        #caca{
+            display: flex;
+            justify-content: center;
+            width: 200px;
+            text-align: center;
+            margin: auto;
+        }
+
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <script>
+    $( function() {
+        $( "img,div" ).draggable();
+      } );
+    </script>
+</head>
+<body>
+    <h1></h1>
+
+    <img src="https://i.imgur.com/XIPFz6f.png" alt="dragon" id="draggable" class="ui-widget-content">
+    <img src="https://i.imgur.com/AGsV24u.png alt=" id="caca">
+
+</body>
+</html>
